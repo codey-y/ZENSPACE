@@ -1,17 +1,17 @@
-int LedA = 13;
-int LedB = 11;
-int LedC = 9;
+int LedX = 13;
+int LedY = 11;
+int LedZ = 9;
 
-void Led(int a, int b, int c) {
-  digitalWrite(LedA, a);
-  digitalWrite(LedB, b);
-  digitalWrite(LedC, c);
+void Led(int x, int y, int z) {
+  digitalWrite(LedX, x);
+  digitalWrite(LedY, y);
+  digitalWrite(LedZ, z);
 }
 
 void setup() {
-  pinMode(LedA, OUTPUT);
-  pinMode(LedB, OUTPUT);
-  pinMode(LedC, OUTPUT);
+  pinMode(LedX, OUTPUT);
+  pinMode(LedY, OUTPUT);
+  pinMode(LedZ, OUTPUT);
 }
 
 void loop() {
